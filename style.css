@@ -6,7 +6,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-image: url('./img/Persona.png');
+    background-image: url('./img/Persona.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,6 @@ body{
     width: 100%;
     color: #fff;
     display: flex;
-    padding: 40px 0;
 }
 
 .column {
@@ -75,6 +74,13 @@ body{
 .tech {
     margin-top: 35px;
 }
+.title{
+font-weight: 600;
+font-size: 30px;
+line-height: 25px;
+opacity: 0.9;
+margin-bottom: 22px;
+}
 
 .progressbar {
     margin-bottom: 17px;
@@ -88,7 +94,7 @@ body{
     border-radius: 10px;
 }
 
-.progressbar__block_first {
+.progressbar__block_fill {
     height: 7px;
     background-color: #fff;
     border-radius: 10px;
